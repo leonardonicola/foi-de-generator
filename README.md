@@ -1,18 +1,37 @@
-# Vue 3 + TypeScript + Vite
+# FOI DE GENERATOR
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Um gerador de frases simples criado em Vue com uma API autoritária.
 
-## Recommended IDE Setup
+<br>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![Development](https://img.shields.io/badge/Status-Development-green)
+![Languages](https://img.shields.io/github/languages/count/leonardonicola/foi-de-generator?color=blueviolet)
 
-## Type Support For `.vue` Imports in TS
+## Status
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- [x] Criar API Rest com Express
+- [x] Hospedar API com Vercel 
+- [x] Criar projeto com Vue
+- [x] Criar composables para reuso do fetch
+- [x] Criar páginas
+  - [x] Página home
+- [x] Fazer deploy do projeto no Vercel
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Tecnologias
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- [Vue](https://vuejs.org/)
+- [Express](https://expressjs.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Axios](https://axios-http.com/)
+- [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+## API
+
+A [API](https://foi-de-base-api.vercel.app/) utilizada foi criada do zero pelo Dev Back-End [Mauricio](https://www.github.com/mferreiradb) utilizando Express e Typescript! Clique [aqui](https://github.com/mferreiradb/FoiDeBaseAPI) para acessar o repositório da API.
+
+
+## Autores
+
+- [@leonardonicola](https://www.github.com/leonardonicola)
+- [@mferreiradb](https://www.github.com/mferreiradb)
